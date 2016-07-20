@@ -1,0 +1,718 @@
+body {
+	font-family: arial, sans-serif;
+	color: #222;
+	background: #fff;
+	margin: 0;
+	font-size: 13px;
+	font-size: small;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.header_container {
+	position: absolute;
+	top: 15px;
+	min-width: 980px;
+	width: 100%;
+}
+
+.header {
+	margin-top: -15px;
+	visibility: visible;
+	height: 59px;
+	background: #f1f1f1;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.header_compact {
+	height: 59px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+}
+
+#sf_container {
+	overflow: visible;
+	position: relative;
+	top: -8px;
+	width: auto;
+	max-width: 784px;
+	background: none;
+}
+
+.sf_left {
+	margin: -1px 0 0;
+	padding-right: 0;
+	padding-left: 126px;
+	position: relative;
+}
+
+#logo {
+	visibility: visible;
+	z-index: 1;
+	padding-left: 13px;
+	padding-right: 10px;
+	margin-top: -2px;
+	padding-top: 6px;
+	left: 0;
+	position: absolute;
+}
+
+#logo_link {
+	display: block;
+	height: 37px;
+	width: 95px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+#logo img {
+	border: 0;
+	left: 0;
+	position: absolute;
+	top: -41px;
+}
+
+.searchB {
+	padding-bottom: 2px;
+	padding-top: 3px;
+	width: 638px;
+}
+
+#sB {
+	text-align: left;
+	position: relative;
+}
+
+#sBdiv {
+	line-height: 0;
+	max-width: 650px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.search-logo {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	width: 40px;
+	margin-right: 9px;
+}
+
+.logo-container {
+	text-align: center;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	min-width: 38px;
+	background-color: #4285f4;
+	background-image: none;
+	border: none;
+}
+
+#btnSearch {
+	background: transparent;
+	border: 0;
+	font-size: 0;
+	height: 30px;
+	outline: 0;
+	width: 100%
+}
+
+.btnSico {
+	background: url("https://www.google.com.ph/images/nav_logo242.png") no-repeat -107px -55px;
+	color: transparent;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	margin: 7px auto;
+}
+
+.search {
+	max-width: 600px;
+	overflow: hidden;
+	border-right: 0;
+	background-color: #fff;
+	height: 38px;
+	vertical-align: top;
+	
+}
+
+.search-text-box {
+	height: 38px;
+	vertical-align: top;
+	background: #fff;
+	-moz-box-sizing: border-box;
+}
+
+.search-text{
+	-moz-box-sizing: border-box;
+	height: 100%;
+	overflow: hidden;
+	padding: 5px 9px 0;
+
+}
+
+#search_bar {
+	border: medium none;
+	padding: 0px;
+	margin: 0px;
+	width: 570px;
+	background: transparent url("data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D") repeat scroll 0% 0%;
+	position: absolute;
+	left: 10px;
+	outline: medium none;
+	color: #000;
+	font: 16px arial, sans-serif;
+	line-height: 26px;
+	height: 26px;
+}
+
+.sf_right {
+	float: right;
+	min-width: 131px;
+	width: 191px;
+	height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	text-align: right;
+	align-items: center;
+	z-index: 986;
+	margin-top: -50px;
+	margin-left: -100px;
+	margin-right: 0;
+}
+
+.sf_right ul {
+	margin-top: 10px;
+	margin-right: -90px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.sf_right ul li { 
+	display: inline;
+	padding: 5px;
+}
+
+#h_apps {
+	margin-top: 5px;
+	margin-left: 5px;
+	opacity: .55;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 2px;
+	color: #000;
+	cursor: default;
+	text-decoration: none;
+}
+
+#h_apps:hover {
+	color: #000;
+	opacity: 100;
+}
+
+#h_sign {
+	color: #fff;
+	cursor: default;
+	text-decoration: none;
+	border: 1px solid #4387fd;
+	font-weight: bold;
+	outline: none;
+	background: -moz-linear-gradient(top,#4387fd,#4683ea);
+	background: linear-gradient(top,#4387fd,#4683ea);
+	progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+	font-family: arial, sans-serif;
+}
+
+#h_sign:hover {
+	text-decoration: none;
+}
+
+.sec_header_con {
+	outline: none;
+	height: 59px;
+	line-height: 54px;
+	background: #fff;
+	border-bottom: 1px solid #ebebeb;
+	padding: 0;
+	position: relative;
+}
+
+.sec_header_con .tools{
+	outline: none;
+	display: inline-block;
+	float: left;
+	position: relative;
+	white-space: nowrap;	
+}
+
+.sec_header_con .tools #tool_all{
+	display: inline-block;
+	margin-left: 128px;
+	height: 54px;
+	margin-left: 128px;
+	white-space: nowrap;
+	font-size: small;
+	border-bottom: 3px solid #4285f4;
+	color: #4285f4;
+	font-weight: bold;
+	padding: 0 8px;
+
+}
+
+.tool_left {
+	outline: none;
+	display: inline-block;
+}
+
+.tool_left a {
+	color: #777;
+	margin: 0 8px;
+	padding: 0 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.tool_left a:hover {
+	color: #000;
+}
+
+.tool_more {
+	color: #777;
+	outline: none;
+	display: inline-block;
+	padding: 0 16px;
+	position: relative;
+}
+
+.tool_more {
+	color: #777;
+	outline: none;
+	display: inline-block;
+	padding: 0 16px;
+	position: relative;
+}
+
+#tool_more-text {
+	display: inline-block;
+	padding-right: 6px;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+#tool_more-arw {
+	border-width: 5px 4px 0 4px;
+	border-color: #909090 transparent;
+	border-style: solid;
+	width: 0;
+	height: 0;
+	margin-left: -2px;
+	top: 50%;
+	margin-top: -2px;
+	position: absolute;
+}
+
+.tool_btn {
+	color: #777;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid transparent;
+	display: inline-block;
+	min-width: 54px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 4px 8px;
+	margin-left: 9px;
+	cursor: pointer;
+	margin-right: 24px;
+}
+
+.left_gear {
+	float: right;
+	position: relative;
+	width: 88px;
+	height: 54px;
+	right: 28px;
+	z-index: 3;
+	border-radius: 1px solid black;
+}
+
+.left_gear li {
+	outline: none;
+	line-height: normal;
+	display: inline-block;
+	position: relative;
+	margin-left: 16px;
+	margin-top: 1px;
+	vertical-align: middle;
+	width: 88px;
+	height: 54px;
+}
+
+.left_gear li a{
+	width: 72px;
+	height: 29px;
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	color: #444;
+	margin: 0;
+	cursor: default;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	height: 27px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+	transition: all 0.218s,visibility 0s;
+	-moz-user-select: none;
+}
+
+.left_gear li a:hover {
+	background-color:#eee;
+	background-image:-moz-linear-gradient(top,#eee,#e0e0e0);
+	background-image:linear-gradient(top,#eee,#e0e0e0);
+	border:1px solid #ccc;
+	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);
+	color:#222;
+	margin:0
+}
+
+#gear_ico{
+	background: url(https://www.google.com.ph/images/nav_logo242.png) no-repeat -42px -259px;
+	margin-top: 5px;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	opacity: 0.667;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.topbar {
+	position: relative;	
+	background: white;
+	width: 100%;
+	height: 43px;
+	min-width: 980px;
+}
+
+.result-con {
+	height: 43px;
+	margin-left: 120px;
+}
+
+#resultStats {
+	line-height: 43px;
+	position: absolute;
+	top: 0;
+	-moz-transition: all 220ms ease-in-out;
+	color: #808080;
+	padding-left: 16px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.mid-con {
+	max-width: 1197px;
+}
+
+.wp-con {
+	visibility: visible;
+	margin-left: 120px;
+	width: 529px;
+	clear: both;
+	margin-right: 254px;
+	padding: 0 8px;
+	margin-top: 25px;
+	position: relative;
+}
+
+#wp h3{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#wp h3 a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #1a0dab;
+	white-space: nowrap;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.s {
+	color: #545454;
+}
+
+.s div {
+	white-space: nowrap;	
+	color: #808080;
+	display: block;
+}
+
+.s div cite {
+	font-size: 14px;
+	color: #006621;
+	font-style: normal;
+}
+
+.s div div {
+	display: inline;
+	margin: 0 7px;
+	position: relative;
+	-moz-user-select: none;
+}
+
+.s div span {
+	width: 512px;
+	height: 33.2px
+	word-wrap: break-word;
+}
+
+#bot-line {
+	margin-top: 23px;
+	margin-left: 130px;
+	background-color: rgba(0,0,0,0.07);
+	border-width: 0;
+	color: rgba(0,0,0,0.07);
+	height: 1px;
+	width: 570px;
+}
+
+#bot-bot-line {
+	margin-left: -260px;
+	margin-top: 140px;
+	background-color: rgba(0,0,0,0.07);
+	border-width: 0;
+	color: rgba(0,0,0,0.07);
+	height: 1px;
+	width: 570px;
+}
+
+#extras {
+	margin-top: 23px;
+	margin-left: 130px;
+	padding: 0px 8px;
+	font-size: medium;
+	font-weight: normal;
+}
+
+#extras h3 {
+	clear: both;
+	overflow: hidden;
+	text-align: left;
+	color: #808080;
+	font-size: 18px;
+}
+
+#extras div {
+	font-size: 13px;
+	display: inline-block;
+	float: left;
+}
+
+#extras div p a {
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+#extras div p a:hover {
+	text-decoration: underline;
+}
+
+.foot {
+	width: 528px;
+	visibility: inherit;
+}
+
+.foot #nav {
+	border-collapse: collapse;
+	text-align: left;
+	margin: 30px auto;
+	margin-left: 200px;
+}
+
+.navend {
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.navend span {
+	background: transparent url(https://www.google.com.ph/images/nav_logo242.png) no-repeat scroll -24px 0px;
+	width: 28px;
+	text-decoration: none;
+	height: 40px;
+	display: block;
+
+}
+
+.cur {
+	color: rgba(0,0,0,0.87);
+	font-weight: normal;
+	padding: 0;
+	text-align: center;
+}
+
+.cur span {
+	background: transparent url(https://www.google.com.ph/images/nav_logo242.png) no-repeat scroll -53px 0px;
+	width: 20px;
+	height: 40px;
+	display: block;
+}
+
+.next {
+	padding: 0;
+	text-align: center;	
+}
+
+.next a {
+	color: #4285f4;
+	font-weight: normal;
+	white-space: nowrap;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.next a span {
+	background: transparent url(https://www.google.com.ph/images/nav_logo242.png) no-repeat scroll -74px 0px;
+	width: 20px;
+	cursor: pointer;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+}
+
+.next a:hover {
+	text-decoration: underline;
+}
+
+#logo-next {
+	background: transparent url(https://www.google.com.ph/images/nav_logo242.png) no-repeat scroll -96px 0px;
+	width: 71px;
+}
+
+.navend a {
+	text-decoration: none;
+}
+
+.navend a:hover {
+	text-decoration: underline;
+}
+
+#a-next {
+	display: block;
+	margin-left: 53px;
+	text-decoration: none;
+	color: #4285f4
+}
+
+#fcnt-bar {
+	position: relative;
+	height: auto;
+	visibility: visible;
+	display: block;
+	margin-top: -30px;
+}
+
+#fbar {
+	left: 0px;
+	right: 0px;
+	padding-top: 18px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+}
+
+#fbar div {
+	visibility: visible;
+	color: #aaa;
+	margin-left: 65px;
+	line-height: 15px;
+}
+
+.ft-loc {
+	display: inline-block;
+}
+
+.unk-loc {
+	border-radius: 100%;
+	display: inline-block;
+	height: 10px;
+	margin: 6px 4px 9px 0;
+	vertical-align: middle;
+	width: 10px;
+	background: #9e9e9e;
+}
+
+.addr {
+	visibility: visible;
+	color: #aaa;
+	line-height: 15px;
+}
+
+.ft-loc a {
+	color: #777;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ft-loc a:hover {
+	color: #000;
+}
+
+.sole-bar {
+	background: #f2f2f2;
+	font-size: small;
+	margin-left: -27px;
+}
+
+.sole-bar span {
+	margin-left: 65px;
+}
+
+.sole-bar span span {
+	white-space: nowrap;
+}
+
+.sole-bar span span a{
+	color: #777;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	padding-left: 27px;
+	margin: 0
+}
+
+
